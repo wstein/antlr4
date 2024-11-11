@@ -8,7 +8,7 @@ main() {
 # Install Packages from Debin repository
 InstallStandardPackages() {
     sudo apt-get update
-    sudo apt-get install -y valac meson
+    sudo apt-get install -y valac meson ruby
 }
 
 # Install Crystal for aarch64 architecture
